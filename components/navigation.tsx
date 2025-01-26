@@ -57,7 +57,7 @@ export default function Navigation() {
         <div className="md:hidden fixed inset-0 top-20 bg-black backdrop-blur-lg z-50">
           <div className="pt-2 pb-3 space-y-1">
             <Link
-              href="#about"
+              href="/#about"
               className="block px-4 py-2 text-black hover:bg-[#00E083]/20 transition-all duration-300"
               onClick={() => setIsOpen(false)}
             >
