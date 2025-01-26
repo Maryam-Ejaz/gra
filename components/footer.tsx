@@ -1,4 +1,5 @@
-import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin, } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -15,8 +16,14 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="text-[#00E083]" />
-                <span>+92 318 6430574</span>
+                <a
+                  href="tel:+923186430574" 
+                  className="hover:text-[#00E083] transition-colors duration-300"
+                >
+                  +92 318 6430574
+                </a>
               </div>
+
               <div className="flex items-center space-x-3">
                 <Mail className="text-[#00E083]" />
                 <span>grw.ref.assoc@gmail.com</span>
@@ -27,8 +34,16 @@ export default function Footer() {
               <a href="#" className="hover:text-[#00E083] transition-colors duration-300"><Twitter /></a>
               <a href="#" className="hover:text-[#00E083] transition-colors duration-300"><Instagram /></a>
               <a href="#" className="hover:text-[#00E083] transition-colors duration-300"><Linkedin /></a>
+              <a
+                href="https://wa.me/923186430574" // WhatsApp direct link
+                className="hover:text-[#00E083] transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp size={24} />
+              </a>
             </div>
-            
+
             {/* Navigation Links */}
             <nav className="mt-8 space-y-2">
               <Link href="#about" className="block text-white hover:text-[#00E083] transition-colors duration-300">

@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, Snowflake } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +54,7 @@ export default function Navigation() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden fixed inset-0 top-20 bg-black/80 backdrop-blur-lg">
+        <div className="md:hidden fixed inset-0 top-20 bg-black backdrop-blur-lg z-50">
           <div className="pt-2 pb-3 space-y-1">
             <Link
               href="#about"
