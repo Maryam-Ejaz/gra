@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           <div className="h-[300px] rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108393.40714092529!2d74.075198!3d32.1876883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f29f42e676d51%3A0xb9c97a108fd85424!2sGujranwala%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1650000000000!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3377.339378575319!2d74.1853789756377!3d32.16812187392404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzLCsDEwJzA1LjIiTiA3NMKwMTEnMTYuNiJF!5e0!3m2!1sen!2s!4v1737903194140!5m2!1sen!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}

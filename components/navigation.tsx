@@ -54,25 +54,25 @@ export default function Navigation() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden fixed inset-0 top-20 bg-black/80 backdrop-blur-sm">
+        <div className="md:hidden fixed inset-0 top-20 bg-black/80 backdrop-blur-lg">
           <div className="pt-2 pb-3 space-y-1">
             <Link
               href="#about"
-              className="block px-4 py-2 text-white hover:bg-[#00E083]/20 transition-all duration-300"
+              className="block px-4 py-2 text-black hover:bg-[#00E083]/20 transition-all duration-300"
               onClick={() => setIsOpen(false)}
             >
               About
             </Link>
             <Link
               href="/gallery"
-              className="block px-4 py-2 text-white hover:bg-[#00E083]/20 transition-all duration-300"
+              className="block px-4 py-2 text-black hover:bg-[#00E083]/20 transition-all duration-300"
               onClick={() => setIsOpen(false)}
             >
               Gallery
             </Link>
             <Link
               href="#contact"
-              className="block px-4 py-2 text-white hover:bg-[#00E083]/20 transition-all duration-300"
+              className="block px-4 py-2 text-black hover:bg-[#00E083]/20 transition-all duration-300"
               onClick={() => setIsOpen(false)}
             >
               Contact

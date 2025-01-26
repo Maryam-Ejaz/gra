@@ -197,7 +197,7 @@ export default function Members() {
         <h2 className="text-3xl md:text-4xl font-bold text-[#444444] mb-10 text-center animate-fadeIn">
           Our Members
         </h2>
-        <h3 className="text-1xl md:text-2xl text-[#444444] mx-80 mb-12 text-center animate-fadeIn">
+        <h3 className="text-sm md:text-2xl text-[#444444] mx-0 mb-12 sm:mx-80 text-center animate-fadeIn">
           Meet the passionate individuals who are the driving force behind Gujranwala Refrigeration Association's Success.
         </h3>
         
